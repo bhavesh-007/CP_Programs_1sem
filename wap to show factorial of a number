@@ -1,0 +1,15 @@
+//wap to show factorial of a number
+#include <stdio.h>
+int main()
+{
+  int fact=1,n;
+  printf("Enter Number to find Factorial : ");
+  scanf("%d",&n);
+  for(int i=1;i<=n;i++)
+  {
+    fact=fact*i;
+    
+  }
+  printf("\n Factorial of a number is  %d",fact);
+  
+}
