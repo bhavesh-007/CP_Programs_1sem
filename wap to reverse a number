@@ -1,0 +1,16 @@
+//wap to reverse a number
+#include <stdio.h>
+int main()
+{
+   int revno=0,n,r;
+   printf("Enter number to reverse");
+   scanf("%d",&n);
+    for(int i=1;n>0;i++)
+      {
+        r=(n%10);
+        revno=(revno*10)+r;
+        n=n/10;
+      }
+      printf("reverse no is  %d",revno);
+      return 0;
+}
